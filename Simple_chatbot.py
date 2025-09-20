@@ -4,7 +4,7 @@
 name = input("What is your name?")
 
 # Step 2: Greet them using their name
-print("Hello", name+ "! nice to meet you.")
+print("Hello", name+ "!  meet you.")
 
 # Step 3: Ask how they are feeling today
 feeling =input("How are you feeling today?")
@@ -17,4 +17,5 @@ elif feeling.lower() == "bad":
     print("I'm sorry to hear that," + name+". i hope things get better soon.")
 else:
     print("Thank you for sharing," + name+".")    
+
     
